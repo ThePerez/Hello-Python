@@ -55,4 +55,3 @@ tanto en 'python' y 'dragón'
 print (not("on" in "python"))
 
 print ("jerga" in "Espero que este curso no este lleno de jerga")
-

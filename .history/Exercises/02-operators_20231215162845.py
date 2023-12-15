@@ -33,26 +33,4 @@ Calcula el área (área = pi x r x r) y la circunferencia
 '''
 
 radio_circle = 10
-pi = 3.14
-
-area_circle = pi * radio_circle * radio_circle
-circunferencia = 2 * pi * radio_circle
-
-print ("El area del circulo es: ", area_circle)
-print ("La circunsferencia es: " , circunferencia)
-
-'''
-Encuentre la longitud de 'python' y 'dragón' y 
-hacer una declaración de comparación falsa.
-'''
-print (not(len("python") >= len("dragon")))
-
-'''
-Utilice el operador y para comprobar si 'on' se encuentra 
-tanto en 'python' y 'dragón'
-'''
-
-print (not("on" in "python"))
-
-print ("jerga" in "Espero que este curso no este lleno de jerga")
-
+pi

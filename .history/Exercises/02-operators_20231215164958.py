@@ -52,7 +52,6 @@ Utilice el operador y para comprobar si 'on' se encuentra
 tanto en 'python' y 'dragón'
 '''
 
-print (not("on" in "python"))
+print(not("gon" in "python" "dragon")) 
 
-print ("jerga" in "Espero que este curso no este lleno de jerga")
-
+print (jer)

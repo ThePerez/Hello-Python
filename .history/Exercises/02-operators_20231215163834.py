@@ -47,12 +47,3 @@ hacer una declaración de comparación falsa.
 '''
 print (not(len("python") >= len("dragon")))
 
-'''
-Utilice el operador y para comprobar si 'on' se encuentra 
-tanto en 'python' y 'dragón'
-'''
-
-print (not("on" in "python"))
-
-print ("jerga" in "Espero que este curso no este lleno de jerga")
-

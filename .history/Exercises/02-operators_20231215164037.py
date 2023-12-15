@@ -52,7 +52,7 @@ Utilice el operador y para comprobar si 'on' se encuentra
 tanto en 'python' y 'dragón'
 '''
 
-print (not("on" in "python"))
-
-print ("jerga" in "Espero que este curso no este lleno de jerga")
-
+if 'on' in palabra1 and 'on' in palabra2:
+    print("'on' se encuentra en ambas palabras.")
+else:
+    print("'on' no se encuentra en ambas palabras.")
