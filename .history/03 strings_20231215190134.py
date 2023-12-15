@@ -22,7 +22,7 @@ print(f'Me llamo {name} {surname} y tengo {age} a#os') # Recomendado
 
 #Desenpaquetado de caracteres
 language = "alexander"
-a, b, c, d, e, f, g, h, i = language
+a, b, c, d, e, f,g = language
 print(a)
 print(b)
 

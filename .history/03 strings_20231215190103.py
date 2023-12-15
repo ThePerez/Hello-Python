@@ -21,8 +21,8 @@ print('Me llamo %s %s y tengo %d a#os'%(name,surname,age))
 print(f'Me llamo {name} {surname} y tengo {age} a#os') # Recomendado
 
 #Desenpaquetado de caracteres
-language = "alexander"
-a, b, c, d, e, f, g, h, i = language
+language = "Python"
+a, b, c, d, e, f = language
 print(a)
 print(b)
 
