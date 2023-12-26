@@ -31,15 +31,34 @@ print(my_o_list)
 my_o_list.remove("Green") #Elimina el elemento seleccionado
 print(my_o_list)
 
-my_list.pop()     #Elimina el último elemento y lo guarda
-print(my_list)
-print(my_list.pop(2)) #elimina el elemento que quiero
+my_list.pop()           #Elimina el último elemento y lo guarda
+print(my_list.pop())
 
-my_list.reverse() #Se listan los elementos comenzando desde el último
+del my_list[2]          #Elimina por índice
+print(my_list) 
+
+my_list.reverse()       #Se listan los elementos comenzando desde el último
 print(my_list)
 
-my_pop_element = my_list.pop(2)
-print(my_pop_element)
+my_new_list = my_list.copy() # Copia toda la lista en una nueva variable
+
+print("--------------------------------------------------")
+
+my_new_list.sort() #Ordena de menor a mayor
+print(my_new_list)
+ 
+print(my_new_list[1:3]) #Imprime los datos que hay entre los índices 1 y 3
+
+my_list.clear()         #vacía la lista
 print(my_list)
+print(my_new_list)
+
+
+
+
+my_o_list[1] = "Gray"
+print(my_o_list)
+
+
 
 
