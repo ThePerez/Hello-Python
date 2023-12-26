@@ -53,9 +53,6 @@ my_list.clear()         #vacía la lista
 print(my_list)
 print(my_new_list)
 
-
-
-
 my_o_list[1] = "Gray"
 print(my_o_list)
 
