@@ -93,8 +93,21 @@ print("--------------------")
 
 # 18.Slice out the first 3 companies from the list
 
-
+print(it_companies)
+del it_companies[0:3]
+print(it_companies)
+print("--------------------")
 
 # 19.Slice out the last 3 companies from the list
 
+print(it_companies)
+del it_companies[3:6]
+print(it_companies)
+print("--------------------")
+
 # 20.Slice out the middle IT company or companies from the list
+
+print(it_companies)
+del it_companies[1]
+print(it_companies)
+print("--------------------")
