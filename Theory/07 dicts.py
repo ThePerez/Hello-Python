@@ -63,7 +63,7 @@ my_new_dict = dict.fromkeys(("Nombre", 9, "Piso"))
 print((my_new_dict))
 my_new_dict = dict.fromkeys(my_dict)
 print((my_new_dict))
-my_new_dict = dict.fromkeys(my_dict, "MoureDev")
+my_new_dict = dict.fromkeys(my_dict, "Barcelona")
 print((my_new_dict))
 
 my_values = my_new_dict.values()
