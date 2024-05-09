@@ -8,8 +8,7 @@ my_other_dict = {}
 print(type(my_dict))
 print(type(my_other_dict))
 
-my_other_dict = {"Nombre": "Alex",
-                 "Apellido": "Perez", "Edad": 38, 1: "Python"}
+my_other_dict = {"Nombre": "Alex","Apellido": "Perez", "Edad": 38, 1: "Python"}
 
 my_dict = {
     "Nombre": "Alexander",
