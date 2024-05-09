@@ -48,8 +48,19 @@ lista = ['Python', 'Numpy','Pandas','Django', 'Flask']
 for elemento in lista:
     print(elemento)
 
+# 7. Use for loop to iterate from 0 to 100 and print only even numbers
 
-Use for loop to iterate from 0 to 100 and print only even numbers
+# Utilizando un bucle for para iterar de 0 a 100
+for numero in range(101):
+    # Verificar si el número es par
+    if numero % 2 == 0:
+        print(numero)
+print('---------------------------------------')
+        
+# 8. Use for loop to iterate from 0 to 100 and print only odd numbers
 
-Use for loop to iterate from 0 to 100 and print only odd numbers
-'''''''''''
+for impar in range(101):
+    # Verificar si el número es par
+    if impar % 2 != 0:
+        print(impar)
+print('---------------------------------------')
