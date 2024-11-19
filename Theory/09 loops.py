@@ -2,41 +2,58 @@
 
 # While
 
-my_app = 0
+my_condition = 0
 
-while my_app < 10:
-    print(my_app)
-    my_app += 2
-else:
-    print("Mi condición es mayor o igual a 10")   
+while my_condition < 10:
+    print(my_condition)
+    my_condition += 2
+else:  # Es opcional
+    print("Mi condición es mayor o igual que 10")
 
-## 2 ##
+print("La ejecución continúa")
 
-while my_app < 20:
-    my_app += 1
-    if my_app == 15:
+while my_condition < 20:
+    my_condition += 1
+    if my_condition == 15:
         print("Se detiene la ejecución")
         break
-    print(my_app)
-    
-    
-    ######### for loop ########
-    
-    my_list = [10, 32, 38, 12, 20, 99, 1010]
-    
-    for element in my_list:
-        print(element)
-    break
+    print(my_condition)
 
-my_other_dict = {"Nombre": "Alex","Apellido": "Perez", "Edad": 38, 1: "Python"}
-for element in my_other_dict:
-        print(element)
+print("La ejecución continúa")
 
-my_set = {"Python", "JavaScript", "CSS"}
-for element in my_set:
-        print(element)
-    
-my_tuple = (38, 1.80, "Alex", "Perez", "Audi")
+# For
+
+my_list = [35, 24, 62, 52, 30, 30, 17]
+
+for element in my_list:
+    print(element)
+
+my_tuple = (35, 1.77, "Brais", "Moure", "Brais")
+
 for element in my_tuple:
-        print(element)
+    print(element)
+
+my_set = {"Brais", "Moure", 35}
+
+for element in my_set:
+    print(element)
+
+my_dict = {"Nombre": "Brais", "Apellido": "Moure", "Edad": 35, 1: "Python"}
+
+for element in my_dict:
+    print(element)
+    if element == "Edad":
+        break
+else:
+    print("El bucle for para el diccionario ha finalizado")
+
+print("La ejecución continúa")
+
+for element in my_dict:
+    print(element)
+    if element == "Edad":
+        continue
+    print("Se ejecuta")
+else:
+    print("El bluce for para diccionario ha finalizado")
     
